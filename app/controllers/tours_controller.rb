@@ -20,7 +20,7 @@ class ToursController < ApplicationController
     end
 
     def create
-        # byebug
+        #byebug
         tour = Tour.new
         tour.update(tour_params)
         # tour.save
